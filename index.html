@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg  " id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html " id='logo'><span>T</span>ravel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service"> Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallary</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home -->
+  <div class="home">
+    <div class="content">
+      <h5>Welcome To World</h5>
+      <h1>Visit <span class="changecontent"></span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="#book"> Book Place</a>
+    </div>
+  </div>
+
+  <!-- section -->
+
+  <section class="book" id="book">
+    <div class="container">
+      <div class="main-text">
+        <h1><span>B</span>ook</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1100">
+                  <img src="./images/book-img.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1100">
+                  <img src="./images/background img.png" class="d-block w-100  img-book" height="510px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1100">
+                  <img src="./images/about-img.png" class="d-block w-100 img-book"  height="510px" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+          <form action="#">
+            <input type="text " class="form-control" placeholder="Where To" required><br>
+            <input type="text " class="form-control" placeholder="How Many" required><br>
+            <input type="date " class="form-control" placeholder="Arrivals" required><br>
+            <input type="date " class="form-control" placeholder="Leaving" required> <br>
+            <textarea class="form-control" name="text" rows="5" placeholder="Enter your name and deatils"></textarea>
+            <input type="submit" value="Book Now" class="submit" required>
+          </form>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+<!-- //////////////////////Packages/////////////////////////////////////////////////// -->
+  <section class="Packages" id="Packages">
+    <div class="container">
+      <div class="main-txt">
+        <h1><span>P</span>ackages</h1>
+
+      </div>
+      <div class="row "id='row-content'>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/india.png" alt="">
+            <div class="card-body">
+              <h3>Inida</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti illum optio quo placeat
+                iure accusamus eos, in nulla debitis dolorum cupiditate tenetur facilis consequuntur, excepturi dicta id
+                doloribus illo.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+              </div>
+              <h6>Price:<strong>$900</strong></h6>
+          <div class="book-btn"> <a href="#book" >Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/uk.png" alt="">
+            <div class="card-body">
+              <h3>United Kindom</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti illum optio quo placeat
+                iure accusamus eos, in nulla debitis dolorum cupiditate tenetur facilis consequuntur, excepturi dicta id
+                doloribus illo.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked  star-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$600</strong></h6>
+            <div class="book-btn">  <a href="#book">Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/france.png" alt="">
+            <div class="card-body">
+              <h3>France </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti illum optio quo placeat
+                iure accusamus eos, in nulla debitis dolorum cupiditate tenetur facilis consequuntur, excepturi dicta id
+                doloribus illo.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+          <div class="book-btn">    <a href="#book">Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row " id='row-content'>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/italy.png" alt="">
+            <div class="card-body">
+              <h3>Italy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti illum optio quo placeat
+                iure accusamus eos, in nulla debitis dolorum cupiditate tenetur facilis consequuntur, excepturi dicta id
+                doloribus illo.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$800</strong></h6>
+            <div class="book-btn">  <a href="#book">Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/pakistan.png" alt="">
+            <div class="card-body">
+              <h3> Pakistan</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti illum optio quo placeat
+                iure accusamus eos, in nulla debitis dolorum cupiditate tenetur facilis consequuntur, excepturi dicta id
+                doloribus illo.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checkedstar-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$400</strong></h6>
+           <div class="book-btn">   <a href="#book">Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/us.png" alt="">
+            <div class="card-body">
+              <h3>United State</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti illum optio quo placeat
+                iure accusamus eos, in nulla debitis dolorum cupiditate tenetur facilis consequuntur, excepturi dicta id
+                doloribus illo.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$900</strong></h6>
+           <div class="book-btn">   <a href="#book">Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row"id='row-content'>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g4.png"  alt="">
+            <div class="card-body">
+              <h3> Spain</h3>
+              <p>Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures. Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European masters.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked "></i>
+              </div>
+              <h6>Price:<strong>$300</strong></h6>
+            <div class="book-btn">  <a href="#book">Book Now</a></div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g6.png"alt="">
+            <div class="card-body">
+              <h3> Mexico</h3>
+              <p>Mexico City is the densely populated, high-altitude capital of Mexico. It's known for its Templo Mayor (a 13th-century Aztec temple), the baroque Catedral Metropolitana de México of the Spanish conquistadors and the Palacio Nacional.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+        <div class="book-btn">
+                <a href="#book">Book Now</a>
+  
+        </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g3.png" alt="">
+            <div class="card-body">
+              <h3> Germany</h3>
+              <p>Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked star-color"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h6>Price:<strong>$700</strong></h6>
+          <div class="book-btn">    <a href="#book">Book Now</a></div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+
+<!-- service -->
+
+<section class="service" id="service">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>S</span>ervices</h1>
+    </div>
+    <div class="row " style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0 ">
+          <div class="card">
+            <li class="fas fa-hotel s-icon"></li>
+            <div class="card-body ">
+              <h3>Affordable Hotel</h3>
+              <p>An affordable hotel offers basic amenities at a budget-friendly price, perfect for travelers seeking cost-effective accommodations without sacrificing comfort.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <li class="fas fa-bullhorn  s-icon"></li>
+            <div class="card-body">
+              <h3>Safty Guide</h3>
+              <p>A safety guide provides essential instructions and precautions to ensure the well-being and security of individuals in various environments or situations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <li class="fas fa-utensils  s-icon"></li>
+            <div class="card-body">
+              <h3>Food and Drinks</h3>
+              <p>The food and drinks selection at an affordable hotel is designed to be both satisfying and budget-friendly.Breakfast is often complimentary, featuring a variety.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <li class="fas fa-globe-asia  s-icon"></li>
+          <div class="card-body">
+            <h3>Around The World</h3>
+            <p>The food and drinks selection at an affordable hotel is designed to be both satisfying and budget-friendly.Breakfast is often complimentary, featuring a variety.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <li class="fas fa-plane  s-icon"></li>
+          <div class="card-body">
+            <h3>Fastest Travel</h3>
+            <p>The food and drinks selection at an affordable hotel is designed to be both satisfying and budget-friendly.Breakfast is often complimentary, featuring a variety.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <li class="fas fa-hiking  s-icon"></li>
+          <div class="card-body">
+            <h3>Adventures</h3>
+            <p>The food and drinks selection at an affordable hotel is designed to be both satisfying and budget-friendly.Breakfast is often complimentary, featuring a variety.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- Gallary -->
+<section>
+  <div class="gallary" id="gallary">
+    <div class="container">
+      <div class="main-txt">
+        <h1><span>G</span>allary</h1>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g1.png" height="230">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g2.png" height="230"alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g3.png" height="230"alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="row"style="margin-top: 30px";>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g4.png" height="230"alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g5.png" height="230"alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g6.png" height="230"alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>About</span>Us</h1>
+    </div>
+    <div class="row " style="margin-top: 50px;">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/about-img.png" alt="">
+        </div>
+      </div> 
+      <div class="col-md-6 py-3 py-md-0  right-about">
+        <h2>Travel Agency Work</h2>
+        <p>A travel agency is a business that provides travel and tourism-related services to clients. It acts as an intermediary between travelers and various travel suppliers, such as airlines, hotels, car rental companies, cruise lines, and tour operators.</p>
+        <button id="about-btn"> Read more...</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- footer -->
+
+<footer id="footer">
+  <div class="main-txt">
+    <h1><span>T</span>ravel</h1>
+  </div>
+<p>A travel agency is a service that helps users plan and book their trips, making travel easy and stress-free. Whether you’re looking for a simple flight, a hotel stay, or an all-inclusive vacation package, a travel agency can handle all the details for you</p>
+<div class="social-links">
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-pinterest"></i>
+</div>
+<div class="copyright">
+  <p>&copy;copyright .All rights are reserved</p>
+</div>
+</footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
